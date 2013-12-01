@@ -1,194 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="378px" prefWidth="776px">
-  <widget name="modelGrid" parent="Form" prefHeight="252px" prefWidth="348px" type="DbGridDesignInfo">
-    <treeDesignInfo/>
+  <widget name="modelGrid" parent="Form" prefHeight="216px" prefWidth="348px" type="DbGridDesignInfo">
     <rowsColumnsDesignInfo>
       <rowsDatasource entityId="138407471441413" field="false"/>
     </rowsColumnsDesignInfo>
     <column name="gUESTS_ID">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138407471441413" fieldName="GUESTS_ID"/>
-      <columnsDatasource/>
+      <columnsDisplayField/>
       <cellsDatasource/>
       <cellDesignInfo>
         <rowsKeyField/>
         <columnsKeyField/>
         <cellValueField/>
       </cellDesignInfo>
-      <columnsDisplayField/>
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
+      <datamodelElement entityId="138407471441413" fieldName="GUESTS_ID"/>
+      <columnsDatasource/>
     </column>
     <column name="nAME">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138407471441413" fieldName="NAME"/>
-      <columnsDatasource/>
+      <columnsDisplayField/>
       <cellsDatasource/>
       <cellDesignInfo>
         <rowsKeyField/>
         <columnsKeyField/>
         <cellValueField/>
       </cellDesignInfo>
-      <columnsDisplayField/>
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
+      <datamodelElement entityId="138407471441413" fieldName="NAME"/>
+      <columnsDatasource/>
     </column>
     <column name="sURNAME">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138407471441413" fieldName="SURNAME"/>
-      <columnsDatasource/>
+      <columnsDisplayField/>
       <cellsDatasource/>
       <cellDesignInfo>
         <rowsKeyField/>
         <columnsKeyField/>
         <cellValueField/>
       </cellDesignInfo>
-      <columnsDisplayField/>
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
+      <datamodelElement entityId="138407471441413" fieldName="SURNAME"/>
+      <columnsDatasource/>
     </column>
     <column name="bDAY">
       <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138407471441413" fieldName="BDAY"/>
-      <columnsDatasource/>
+      <columnsDisplayField/>
       <cellsDatasource/>
       <cellDesignInfo>
         <rowsKeyField/>
         <columnsKeyField/>
         <cellValueField/>
       </cellDesignInfo>
-      <columnsDisplayField/>
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
+      <datamodelElement entityId="138407471441413" fieldName="BDAY"/>
+      <columnsDatasource/>
     </column>
     <column name="sEX">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138407471441413" fieldName="SEX"/>
-      <columnsDatasource/>
+      <columnsDisplayField/>
       <cellsDatasource/>
       <cellDesignInfo>
         <rowsKeyField/>
         <columnsKeyField/>
         <cellValueField/>
       </cellDesignInfo>
-      <columnsDisplayField/>
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
+      <datamodelElement entityId="138407471441413" fieldName="SEX"/>
+      <columnsDatasource/>
     </column>
     <column name="rOOMS_ID">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138407471441413" fieldName="ROOMS_ID"/>
-      <columnsDatasource/>
+      <columnsDisplayField/>
       <cellsDatasource/>
       <cellDesignInfo>
         <rowsKeyField/>
         <columnsKeyField/>
         <cellValueField/>
       </cellDesignInfo>
-      <columnsDisplayField/>
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
+      <datamodelElement entityId="138407471441413" fieldName="ROOMS_ID"/>
+      <columnsDatasource/>
     </column>
-    <constraints height="252px" left="12px" top="120px" type="MarginConstraintsDesignInfo" width="348px"/>
-  </widget>
-  <widget name="modelGrid1" parent="Form" prefHeight="252px" prefWidth="384px" type="DbGridDesignInfo">
     <treeDesignInfo/>
+    <constraints height="216px" left="12px" top="120px" type="MarginConstraintsDesignInfo" width="348px"/>
+  </widget>
+  <widget name="modelGrid1" parent="Form" prefHeight="216px" prefWidth="384px" type="DbGridDesignInfo">
     <rowsColumnsDesignInfo>
       <rowsDatasource entityId="138407472327527" field="false"/>
     </rowsColumnsDesignInfo>
     <column name="gUESTVISITING_ID">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138407472327527" fieldName="GUESTVISITING_ID"/>
-      <columnsDatasource/>
+      <columnsDisplayField/>
       <cellsDatasource/>
       <cellDesignInfo>
         <rowsKeyField/>
         <columnsKeyField/>
         <cellValueField/>
       </cellDesignInfo>
-      <columnsDisplayField/>
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
+      <datamodelElement entityId="138407472327527" fieldName="GUESTVISITING_ID"/>
+      <columnsDatasource/>
     </column>
     <column name="gUESTS_ID1">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138407472327527" fieldName="GUESTS_ID"/>
-      <columnsDatasource/>
+      <columnsDisplayField/>
       <cellsDatasource/>
       <cellDesignInfo>
         <rowsKeyField/>
         <columnsKeyField/>
         <cellValueField/>
       </cellDesignInfo>
-      <columnsDisplayField/>
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
+      <datamodelElement entityId="138407472327527" fieldName="GUESTS_ID"/>
+      <columnsDatasource/>
     </column>
     <column name="rOOMS_ID1">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138407472327527" fieldName="ROOMS_ID"/>
-      <columnsDatasource/>
+      <columnsDisplayField/>
       <cellsDatasource/>
       <cellDesignInfo>
         <rowsKeyField/>
         <columnsKeyField/>
         <cellValueField/>
       </cellDesignInfo>
-      <columnsDisplayField/>
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
+      <datamodelElement entityId="138407472327527" fieldName="ROOMS_ID"/>
+      <columnsDatasource/>
     </column>
     <column name="rACE">
       <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138407472327527" fieldName="RACE"/>
-      <columnsDatasource/>
+      <columnsDisplayField/>
       <cellsDatasource/>
       <cellDesignInfo>
         <rowsKeyField/>
         <columnsKeyField/>
         <cellValueField/>
       </cellDesignInfo>
-      <columnsDisplayField/>
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
+      <datamodelElement entityId="138407472327527" fieldName="RACE"/>
+      <columnsDatasource/>
     </column>
     <column name="eXIT">
       <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138407472327527" fieldName="EXIT"/>
-      <columnsDatasource/>
+      <columnsDisplayField/>
       <cellsDatasource/>
       <cellDesignInfo>
         <rowsKeyField/>
         <columnsKeyField/>
         <cellValueField/>
       </cellDesignInfo>
-      <columnsDisplayField/>
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
+      <datamodelElement entityId="138407472327527" fieldName="EXIT"/>
+      <columnsDatasource/>
     </column>
-    <constraints height="252px" left="384px" top="120px" type="MarginConstraintsDesignInfo" width="384px"/>
+    <treeDesignInfo/>
+    <constraints height="216px" left="384px" top="120px" type="MarginConstraintsDesignInfo" width="384px"/>
   </widget>
   <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="23px" prefWidth="65px" text="add" type="ButtonDesignInfo">
     <constraints height="23px" left="12px" top="84px" type="MarginConstraintsDesignInfo" width="65px"/>
   </widget>
-  <widget name="button1" parent="Form" prefHeight="24px" prefWidth="72px" text="delete" type="ButtonDesignInfo">
+  <widget actionPerformed="button1ActionPerformed" name="button1" parent="Form" prefHeight="24px" prefWidth="72px" text="delete" type="ButtonDesignInfo">
     <constraints height="24px" left="84px" top="84px" type="MarginConstraintsDesignInfo" width="72px"/>
   </widget>
-  <widget name="button2" parent="Form" prefHeight="24px" prefWidth="131px" text="save" type="ButtonDesignInfo">
+  <widget actionPerformed="button2ActionPerformed" name="button2" parent="Form" prefHeight="24px" prefWidth="131px" text="save" type="ButtonDesignInfo">
     <constraints height="24px" left="228px" top="84px" type="MarginConstraintsDesignInfo" width="131px"/>
   </widget>
   <widget name="button3" parent="Form" prefHeight="23px" prefWidth="71px" text="update" type="ButtonDesignInfo">
     <constraints height="23px" right="9px" top="84px" type="MarginConstraintsDesignInfo" width="71px"/>
+  </widget>
+  <widget name="panel" parent="Form" prefHeight="384px" prefWidth="780px" type="PanelDesignInfo">
+    <layout type="MarginLayoutDesignInfo"/>
+    <constraints height="384px" left="0px" top="0px" type="MarginConstraintsDesignInfo" width="780px"/>
+  </widget>
+  <widget actionPerformed="button4ActionPerformed" name="button4" parent="panel" prefHeight="23px" prefWidth="71px" text="cancel" type="ButtonDesignInfo">
+    <constraints bottom="13px" height="23px" left="276px" type="MarginConstraintsDesignInfo" width="71px"/>
   </widget>
   <nonvisual name="popupMenu" prefHeight="0px" prefWidth="0px" type="PopupDesignInfo"/>
   <layout type="MarginLayoutDesignInfo"/>

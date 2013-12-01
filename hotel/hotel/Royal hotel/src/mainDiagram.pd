@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel datamodelDbId="null">
+  <fieldsEntity entityHeight="200" entityIconified="false" entityId="138588550884589" entityLocationX="410" entityLocationY="162" entityWidth="150" tableName="RoomType"/>
+  <fieldsEntity entityHeight="200" entityIconified="false" entityId="138588529262343" entityLocationX="32" entityLocationY="60" entityWidth="150" tableName="Guests"/>
+  <fieldsEntity entityHeight="200" entityIconified="false" entityId="138588560606007" entityLocationX="573" entityLocationY="44" entityWidth="150" tableName="GuestVisiting"/>
+  <fieldsEntity entityHeight="200" entityIconified="false" entityId="138588542691125" entityLocationX="222" entityLocationY="145" entityWidth="150" tableName="Rooms"/>
+</datamodel>
