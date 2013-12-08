@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><datamodel>
-  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
-  <entity Title="ROOMS" entityHeight="200" entityIconified="false" entityId="138590757240321" entityLocationX="230" entityLocationY="25" entityWidth="150" tableAlias="t1" tableName="ROOMS" tableSchemaName=""/>
-  <entity Title="ROOMTYPE" entityHeight="200" entityIconified="false" entityId="138590750809008" entityLocationX="488" entityLocationY="15" entityWidth="150" tableAlias="t" tableName="ROOMTYPE" tableSchemaName=""/>
-  <relation leftEntityFieldName="ROOMTYPE_ID" leftEntityId="138590757240321" rightEntityFieldName="ROOMTYPE_ID" rightEntityId="138590750809008"/>
-</datamodel>
