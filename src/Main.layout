@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><layout backgroundColor="#66ff66" defaultCloseOperation="2" name="Form" prefHeight="456px" prefWidth="724px">
+  <widget name="label" parent="Form" prefHeight="72px" prefWidth="684px" text="Информационная поддержка Royal Hotel" type="LabelDesignInfo">
+    <easFont name="Times New Roman" size="36" style="3"/>
+    <constraints height="72px" left="24px" top="12px" type="MarginConstraintsDesignInfo" width="684px"/>
+  </widget>
+  <widget actionPerformed="button1ActionPerformed" icon="img/Note32.png" name="button1" parent="Form" prefHeight="48px" prefWidth="240px" text="Информация о номерах" type="ButtonDesignInfo">
+    <constraints bottom="60px" height="48px" left="72px" type="MarginConstraintsDesignInfo" width="240px"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" backgroundColor="#ffcccc" icon="img/Users256.png" name="button" parent="Form" prefHeight="204px" prefWidth="432px" text="Добавить постояльца" type="ButtonDesignInfo">
+    <constraints height="204px" left="120px" top="84px" type="MarginConstraintsDesignInfo" width="432px"/>
+  </widget>
+  <widget actionPerformed="button2ActionPerformed" backgroundColor="#ccffcc" icon="img/kuser.png" name="button2" parent="Form" prefHeight="132px" prefWidth="324px" text="Информация о постояльцах" type="ButtonDesignInfo">
+    <constraints bottom="12px" height="132px" left="324px" type="MarginConstraintsDesignInfo" width="324px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="475px" prefWidth="730px">
+  <widget actionPerformed="button1ActionPerformed" name="button1" parent="Form" prefHeight="264px" prefWidth="348px" text="Показать список свободных мест" type="ButtonDesignInfo">
+    <constraints height="264px" left="24px" top="120px" type="MarginConstraintsDesignInfo" width="348px"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="156px" prefWidth="300px" text="Показать список забронированых номеров" type="ButtonDesignInfo">
+    <constraints height="156px" left="396px" top="120px" type="MarginConstraintsDesignInfo" width="300px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

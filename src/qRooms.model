@@ -4,4 +4,6 @@
   </parameters>
   <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
   <entity Title="ROOMS" entityHeight="200" entityIconified="false" entityId="138649658045221" entityLocationX="288" entityLocationY="45" entityWidth="150" tableAlias="t1" tableName="ROOMS" tableSchemaName=""/>
+  <entity Title="ROOMTYPE" entityHeight="200" entityIconified="false" entityId="138711234713706" entityLocationX="514" entityLocationY="37" entityWidth="150" tableAlias="t" tableName="ROOMTYPE" tableSchemaName=""/>
+  <relation leftEntityFieldName="ROOMTYPE_ID" leftEntityId="138711234713706" rightEntityFieldName="ROOMTYPE_ID" rightEntityId="138649658045221"/>
 </datamodel>

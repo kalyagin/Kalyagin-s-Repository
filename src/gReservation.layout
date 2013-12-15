@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><layout backgroundColor="#99ff99" defaultCloseOperation="2" name="Form" prefHeight="477px" prefWidth="730px" windowOpened="formWindowOpened">
+  <widget actionPerformed="buttonActionPerformed" icon="img/plus_32_1.png" name="button" parent="Form" prefHeight="48px" prefWidth="144px" text="Добавить" type="ButtonDesignInfo">
+    <constraints height="48px" left="24px" top="96px" type="MarginConstraintsDesignInfo" width="144px"/>
+  </widget>
+  <widget actionPerformed="button1ActionPerformed" icon="img/ok.png" name="button1" parent="Form" prefHeight="47px" prefWidth="108px" text="Ok" type="ButtonDesignInfo">
+    <constraints bottom="22px" height="47px" right="22px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget backgroundColor="#ccffcc" name="modelGrid" parent="Form" prefHeight="228px" prefWidth="684px" type="DbGridDesignInfo">
+    <column name="gUEST_ID">
+      <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
+        <valueField entityId="138711020125351" fieldName="GUEST_ID"/>
+        <displayField entityId="138711020125351" fieldName="SURNAME"/>
+      </controlInfo>
+      <datamodelElement entityId="138710990125771" fieldName="GUEST_ID"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <column name="rOOMS_ID">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138710990125771" fieldName="ROOMS_ID"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <column name="rESERVATION">
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138710990125771" fieldName="RESERVATION"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138710990125771" field="false"/>
+    </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
+    <constraints height="228px" left="24px" top="168px" type="MarginConstraintsDesignInfo" width="684px"/>
+  </widget>
+  <widget actionPerformed="button2ActionPerformed" icon="img/images.jpg" name="button2" parent="Form" prefHeight="48px" prefWidth="144px" text="Удалить" type="ButtonDesignInfo">
+    <constraints height="48px" left="192px" top="96px" type="MarginConstraintsDesignInfo" width="144px"/>
+  </widget>
+  <widget name="label" parent="Form" prefHeight="48px" prefWidth="264px" text="Бронирование номера" type="LabelDesignInfo">
+    <constraints height="48px" left="240px" top="24px" type="MarginConstraintsDesignInfo" width="264px"/>
+    <easFont name="Times New Roman" size="24" style="3"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

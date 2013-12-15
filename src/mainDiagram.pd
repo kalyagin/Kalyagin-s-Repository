@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><datamodel datamodelDbId="null">
   <fieldsEntity entityHeight="200" entityIconified="false" entityId="138649511477763" entityLocationX="447" entityLocationY="57" entityWidth="150" tableName="ROOMTYPE"/>
   <fieldsEntity entityHeight="200" entityIconified="false" entityId="138649515752399" entityLocationX="27" entityLocationY="238" entityWidth="150" tableName="GUESTVISITING"/>
-  <fieldsEntity entityHeight="200" entityIconified="false" entityId="138649517667390" entityLocationX="11" entityLocationY="22" entityWidth="150" tableName="GUEST"/>
+  <fieldsEntity entityHeight="200" entityIconified="false" entityId="138649517667390" entityLocationX="11" entityLocationY="23" entityWidth="150" tableName="GUEST"/>
   <fieldsEntity entityHeight="200" entityIconified="false" entityId="138649499552828" entityLocationX="244" entityLocationY="40" entityWidth="150" tableName="ROOMS"/>
 </datamodel>

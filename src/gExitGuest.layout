@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><layout backgroundColor="#99ff99" defaultCloseOperation="2" name="Form" prefHeight="474px" prefWidth="726px" windowOpened="formWindowOpened">
+  <widget backgroundColor="#ccffcc" name="modelGrid" parent="Form" prefHeight="228px" prefWidth="660px" type="DbGridDesignInfo">
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138713355546969" field="false"/>
+    </rowsColumnsDesignInfo>
+    <column name="rOOMS_ID">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138713355546969" fieldName="ROOMS_ID"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="rACE">
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138713355546969" fieldName="RACE"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="eXIT">
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138713355546969" fieldName="EXIT"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="nAME">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138713355546969" fieldName="NAME"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="sURNAME">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138713355546969" fieldName="SURNAME"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="bDAY">
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138713355546969" fieldName="BDAY"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="sEX">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138713355546969" fieldName="SEX"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="pHONE">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138713355546969" fieldName="PHONE"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <treeDesignInfo/>
+    <constraints height="228px" left="36px" top="156px" type="MarginConstraintsDesignInfo" width="660px"/>
+  </widget>
+  <widget backgroundColor="#ccffcc" dateFormat="dd.MM.yyyy" name="modelDate" parent="Form" prefHeight="24px" prefWidth="180px" type="DbDateDesignInfo">
+    <datamodelElement entityId="-1" fieldName="Param1"/>
+    <constraints height="24px" left="204px" top="108px" type="MarginConstraintsDesignInfo" width="180px"/>
+  </widget>
+  <widget name="label" parent="Form" prefHeight="24px" prefWidth="156px" text="Сегодняшняя дата:" type="LabelDesignInfo">
+    <easFont name="Times New Roman" size="18" style="2"/>
+    <constraints height="24px" left="36px" top="108px" type="MarginConstraintsDesignInfo" width="156px"/>
+  </widget>
+  <widget name="label1" parent="Form" prefHeight="48px" prefWidth="492px" text="Получение списка выбовших постояльцев" type="LabelDesignInfo">
+    <easFont name="Times New Roman" size="24" style="3"/>
+    <constraints height="48px" left="132px" top="24px" type="MarginConstraintsDesignInfo" width="492px"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" icon="img/ok.png" name="button" parent="Form" prefHeight="48px" prefWidth="108px" text="Ок" type="ButtonDesignInfo">
+    <constraints bottom="18px" height="48px" right="30px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="471px" prefWidth="714px">
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="216px" prefWidth="240px" text="Список постояльцев " type="ButtonDesignInfo">
+    <constraints height="216px" left="48px" top="60px" type="MarginConstraintsDesignInfo" width="240px"/>
+  </widget>
+  <widget actionPerformed="button1ActionPerformed" name="button1" parent="Form" prefHeight="372px" prefWidth="252px" text="Список выбывших постояльцев" type="ButtonDesignInfo">
+    <constraints height="372px" left="348px" top="60px" type="MarginConstraintsDesignInfo" width="252px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

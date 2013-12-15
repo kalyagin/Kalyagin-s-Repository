@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="Param1" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="93" typeName="TIMESTAMP"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="qGetReservation" Title="qGetReservation" entityHeight="200" entityIconified="false" entityId="138713575311708" entityLocationX="286" entityLocationY="64" entityWidth="150" queryId="qGetReservation" tableName="" tableSchemaName=""/>
+  <entity Name="qGuest" Title="qGuest" entityHeight="200" entityIconified="false" entityId="138713586132721" entityLocationX="532" entityLocationY="57" entityWidth="150" queryId="qGuest" tableName="" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="Param1" rightEntityId="138713575311708" rightEntityParameterName="getReservation"/>
+  <referenceRelation leftEntityFieldName="GUEST_ID" leftEntityId="138713575311708" rightEntityFieldName="GUEST_ID" rightEntityId="138713586132721"/>
+</datamodel>

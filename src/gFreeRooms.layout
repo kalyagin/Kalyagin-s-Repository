@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><layout backgroundColor="#66ff66" defaultCloseOperation="2" name="Form" prefHeight="474px" prefWidth="729px">
+  <widget backgroundColor="#ccffcc" name="modelGrid" parent="Form" prefHeight="228px" prefWidth="672px" type="DbGridDesignInfo">
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138713470489843" field="false"/>
+    </rowsColumnsDesignInfo>
+    <column name="tYPENAME">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138713470489843" fieldName="TYPENAME"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="pLACES">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138713470489843" fieldName="PLACES"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="nUMOFROOMS">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138713470489843" fieldName="NUMOFROOMS"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="pRICE">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138713470489843" fieldName="PRICE"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="sTATUS">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138713470489843" fieldName="STATUS"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="rOOMS_ID">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138713470489843" fieldName="ROOMS_ID"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <treeDesignInfo/>
+    <constraints height="228px" left="24px" top="168px" type="MarginConstraintsDesignInfo" width="672px"/>
+  </widget>
+  <widget name="modelFormattedField" parent="Form" prefHeight="20px" prefWidth="168px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="-1" fieldName="Param1"/>
+    <constraints height="20px" left="264px" top="120px" type="MarginConstraintsDesignInfo" width="168px"/>
+  </widget>
+  <widget name="label" parent="Form" prefHeight="24px" prefWidth="228px" text="Введите Свободно/Занято :" type="LabelDesignInfo">
+    <easFont name="Times New Roman" size="18" style="2"/>
+    <constraints height="24px" left="24px" top="120px" type="MarginConstraintsDesignInfo" width="228px"/>
+  </widget>
+  <widget name="label1" parent="Form" prefHeight="48px" prefWidth="528px" text="Получение списка свободных/занятых номеров" type="LabelDesignInfo">
+    <easFont name="Times New Roman" size="24" style="3"/>
+    <constraints height="48px" left="96px" top="12px" type="MarginConstraintsDesignInfo" width="528px"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" backgroundColor="#ccffcc" icon="img/ok.png" name="button" parent="Form" prefHeight="48px" prefWidth="108px" text="Ok" type="ButtonDesignInfo">
+    <constraints bottom="18px" height="48px" right="33px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <nonvisual name="textField" prefHeight="0px" prefWidth="0px" text="textField" type="TextFieldDesignInfo"/>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="LastName" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="12" typeName="VARCHAR"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="qSearch" Title="qSearch" entityHeight="200" entityIconified="false" entityId="138710700769445" entityLocationX="290" entityLocationY="65" entityWidth="150" queryId="qSearch" tableName="" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="LastName" rightEntityFieldName="SURNAME" rightEntityId="138710700769445"/>
+</datamodel>

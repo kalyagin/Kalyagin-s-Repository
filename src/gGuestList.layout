@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><layout backgroundColor="#99ff99" defaultCloseOperation="2" name="Form" prefHeight="473px" prefWidth="726px">
+  <widget backgroundColor="#ccffcc" name="modelGrid" parent="Form" prefHeight="228px" prefWidth="672px" type="DbGridDesignInfo">
+    <column name="nAME">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138713733135404" fieldName="NAME"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <column name="sURNAME">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138713733135404" fieldName="SURNAME"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <column name="bDAY">
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138713733135404" fieldName="BDAY"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <column name="sEX">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138713733135404" fieldName="SEX"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <column name="pHONE">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138713733135404" fieldName="PHONE"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138713733135404" field="false"/>
+    </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
+    <constraints height="228px" left="24px" top="156px" type="MarginConstraintsDesignInfo" width="672px"/>
+  </widget>
+  <widget name="label" parent="Form" prefHeight="72px" prefWidth="228px" text="Список постояльцев " type="LabelDesignInfo">
+    <constraints height="72px" left="252px" top="36px" type="MarginConstraintsDesignInfo" width="228px"/>
+    <easFont name="Times New Roman" size="24" style="3"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" icon="img/ok.png" name="button" parent="Form" prefHeight="48px" prefWidth="108px" text="Ok" type="ButtonDesignInfo">
+    <constraints bottom="17px" height="48px" right="30px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>
