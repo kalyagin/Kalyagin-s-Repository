@@ -8,7 +8,8 @@ function buttonActionPerformed(evt) {//GEN-FIRST:event_buttonActionPerformed
 var ddd= new Main();
 
     if(passwordField= "123"){
-        ddd.showModal() 
         close();
+        ddd.showModal();
+        
         };
 }//GEN-LAST:event_buttonActionPerformed

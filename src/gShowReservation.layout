@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><layout backgroundColor="#99ff99" defaultCloseOperation="2" name="Form" prefHeight="476px" prefWidth="727px">
   <widget backgroundColor="#ccffcc" name="modelGrid" parent="Form" prefHeight="228px" prefWidth="684px" type="DbGridDesignInfo">
-    <rowsColumnsDesignInfo>
-      <rowsDatasource entityId="138713575311708" field="false"/>
-    </rowsColumnsDesignInfo>
-    <column name="gUEST_ID">
+    <treeDesignInfo/>
+    <column name="Фамилия">
       <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
         <valueField entityId="138713586132721" fieldName="GUEST_ID"/>
         <displayField entityId="138713586132721" fieldName="SURNAME"/>
       </controlInfo>
-      <columnsDisplayField/>
       <datamodelElement entityId="138713575311708" fieldName="GUEST_ID"/>
       <columnsDatasource/>
       <cellsDatasource/>
@@ -20,10 +17,10 @@
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
-    </column>
-    <column name="rOOMS_ID">
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDisplayField/>
+    </column>
+    <column name="№ комнаты">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138713575311708" fieldName="ROOMS_ID"/>
       <columnsDatasource/>
       <cellsDatasource/>
@@ -35,10 +32,10 @@
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
-    </column>
-    <column name="rESERVATION">
-      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDisplayField/>
+    </column>
+    <column name="Дата брони">
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138713575311708" fieldName="RESERVATION"/>
       <columnsDatasource/>
       <cellsDatasource/>
@@ -50,21 +47,24 @@
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
+      <columnsDisplayField/>
     </column>
-    <treeDesignInfo/>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138713575311708" field="false"/>
+    </rowsColumnsDesignInfo>
     <constraints height="228px" left="24px" top="156px" type="MarginConstraintsDesignInfo" width="684px"/>
   </widget>
-  <widget name="modelDate" parent="Form" prefHeight="24px" prefWidth="180px" type="DbDateDesignInfo">
+  <widget dateFormat="dd.MM.yyyy" name="modelDate" parent="Form" prefHeight="24px" prefWidth="180px" type="DbDateDesignInfo">
     <datamodelElement entityId="-1" fieldName="Param1"/>
     <constraints height="24px" left="204px" top="108px" type="MarginConstraintsDesignInfo" width="180px"/>
   </widget>
   <widget name="label" parent="Form" prefHeight="24px" prefWidth="168px" text="Сегодняшняя дата: " type="LabelDesignInfo">
-    <easFont name="Times New Roman" size="18" style="2"/>
     <constraints height="24px" left="36px" top="108px" type="MarginConstraintsDesignInfo" width="168px"/>
+    <easFont name="Times New Roman" size="18" style="2"/>
   </widget>
   <widget name="label1" parent="Form" prefHeight="48px" prefWidth="588px" text="Получение списка забронированных номеров" type="LabelDesignInfo">
-    <easFont name="Times New Roman" size="24" style="3"/>
     <constraints height="48px" left="108px" top="24px" type="MarginConstraintsDesignInfo" width="588px"/>
+    <easFont name="Times New Roman" size="24" style="3"/>
   </widget>
   <widget actionPerformed="buttonActionPerformed" icon="img/ok.png" name="button" parent="Form" prefHeight="48px" prefWidth="108px" text="Ok" type="ButtonDesignInfo">
     <constraints bottom="20px" height="48px" right="19px" type="MarginConstraintsDesignInfo" width="108px"/>

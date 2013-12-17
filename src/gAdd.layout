@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><layout backgroundColor="#99ff99" defaultCloseOperation="2" name="Form" prefHeight="470px" prefWidth="727px">
   <widget backgroundColor="#ccffcc" name="modelGrid" parent="Form" prefHeight="252px" prefWidth="684px" type="DbGridDesignInfo">
-    <rowsColumnsDesignInfo>
-      <rowsDatasource entityId="138710538743868" field="false"/>
-    </rowsColumnsDesignInfo>
-    <column name="nAME">
+    <treeDesignInfo/>
+    <column name="Имя">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <columnsDisplayField/>
       <datamodelElement entityId="138710538743868" fieldName="NAME"/>
       <columnsDatasource/>
       <cellsDatasource/>
@@ -17,10 +14,10 @@
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
-    </column>
-    <column name="sURNAME">
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDisplayField/>
+    </column>
+    <column name="Фамилия">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138710538743868" fieldName="SURNAME"/>
       <columnsDatasource/>
       <cellsDatasource/>
@@ -32,10 +29,10 @@
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
-    </column>
-    <column name="bDAY">
-      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDisplayField/>
+    </column>
+    <column name="Дата рождения">
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138710538743868" fieldName="BDAY"/>
       <columnsDatasource/>
       <cellsDatasource/>
@@ -47,10 +44,10 @@
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
-    </column>
-    <column name="sEX">
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDisplayField/>
+    </column>
+    <column name="Пол">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138710538743868" fieldName="SEX"/>
       <columnsDatasource/>
       <cellsDatasource/>
@@ -62,10 +59,10 @@
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
-    </column>
-    <column name="pHONE">
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDisplayField/>
+    </column>
+    <column name="Номер телефон">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138710538743868" fieldName="PHONE"/>
       <columnsDatasource/>
       <cellsDatasource/>
@@ -77,8 +74,11 @@
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
+      <columnsDisplayField/>
     </column>
-    <treeDesignInfo/>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138710538743868" field="false"/>
+    </rowsColumnsDesignInfo>
     <constraints height="252px" left="24px" top="132px" type="MarginConstraintsDesignInfo" width="684px"/>
   </widget>
   <widget actionPerformed="buttonActionPerformed" icon="img/plus_32_1.png" name="button" parent="Form" prefHeight="36px" prefWidth="120px" text="Добавить" type="ButtonDesignInfo">
@@ -97,8 +97,8 @@
     <constraints bottom="14px" height="60px" left="276px" type="MarginConstraintsDesignInfo" width="204px"/>
   </widget>
   <widget name="label" parent="Form" prefHeight="48px" prefWidth="540px" text="Список постояльцев &quot;Royal Hotel&quot;" type="LabelDesignInfo">
-    <easFont name="Times New Roman" size="36" style="2"/>
     <constraints height="48px" left="96px" top="12px" type="MarginConstraintsDesignInfo" width="540px"/>
+    <easFont name="Times New Roman" size="36" style="2"/>
   </widget>
   <layout type="MarginLayoutDesignInfo"/>
 </layout>

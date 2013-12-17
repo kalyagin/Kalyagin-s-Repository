@@ -6,7 +6,8 @@
     <constraints bottom="22px" height="47px" right="22px" type="MarginConstraintsDesignInfo" width="108px"/>
   </widget>
   <widget backgroundColor="#ccffcc" name="modelGrid" parent="Form" prefHeight="228px" prefWidth="684px" type="DbGridDesignInfo">
-    <column name="gUEST_ID">
+    <treeDesignInfo/>
+    <column name="Фамилия">
       <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
         <valueField entityId="138711020125351" fieldName="GUEST_ID"/>
         <displayField entityId="138711020125351" fieldName="SURNAME"/>
@@ -24,7 +25,7 @@
       </headerStyle>
       <columnsDisplayField/>
     </column>
-    <column name="rOOMS_ID">
+    <column name="№ комнаты">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138710990125771" fieldName="ROOMS_ID"/>
       <columnsDatasource/>
@@ -39,7 +40,7 @@
       </headerStyle>
       <columnsDisplayField/>
     </column>
-    <column name="rESERVATION">
+    <column name="Дата брони">
       <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138710990125771" fieldName="RESERVATION"/>
       <columnsDatasource/>
@@ -57,7 +58,6 @@
     <rowsColumnsDesignInfo>
       <rowsDatasource entityId="138710990125771" field="false"/>
     </rowsColumnsDesignInfo>
-    <treeDesignInfo/>
     <constraints height="228px" left="24px" top="168px" type="MarginConstraintsDesignInfo" width="684px"/>
   </widget>
   <widget actionPerformed="button2ActionPerformed" icon="img/images.jpg" name="button2" parent="Form" prefHeight="48px" prefWidth="144px" text="Удалить" type="ButtonDesignInfo">

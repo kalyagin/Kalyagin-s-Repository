@@ -1,9 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="471px" prefWidth="714px">
-  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="216px" prefWidth="240px" text="Список постояльцев " type="ButtonDesignInfo">
-    <constraints height="216px" left="48px" top="60px" type="MarginConstraintsDesignInfo" width="240px"/>
+<?xml version="1.0" encoding="UTF-8"?><layout backgroundColor="#99ff99" defaultCloseOperation="2" name="Form" prefHeight="471px" prefWidth="714px">
+  <widget actionPerformed="buttonActionPerformed" backgroundColor="#ffffcc" icon="img/Users256.png" name="button" parent="Form" prefHeight="168px" prefWidth="588px" text="Список постояльцев " type="ButtonDesignInfo">
+    <constraints height="168px" left="108px" top="84px" type="MarginConstraintsDesignInfo" width="588px"/>
+    <easFont name="Tahoma" size="14" style="3"/>
   </widget>
-  <widget actionPerformed="button1ActionPerformed" name="button1" parent="Form" prefHeight="372px" prefWidth="252px" text="Список выбывших постояльцев" type="ButtonDesignInfo">
-    <constraints height="372px" left="348px" top="60px" type="MarginConstraintsDesignInfo" width="252px"/>
+  <widget actionPerformed="button1ActionPerformed" backgroundColor="#ffcccc" icon="img/client.png" name="button1" parent="Form" prefHeight="144px" prefWidth="468px" text="Список выбывших постояльцев" type="ButtonDesignInfo">
+    <constraints height="144px" left="108px" top="312px" type="MarginConstraintsDesignInfo" width="468px"/>
+    <easFont name="Tahoma" size="14" style="3"/>
+  </widget>
+  <widget name="label" parent="Form" prefHeight="48px" prefWidth="372px" text="Информация о постояльцах:" type="LabelDesignInfo">
+    <constraints height="48px" left="216px" top="24px" type="MarginConstraintsDesignInfo" width="372px"/>
+    <easFont name="Times New Roman" size="24" style="3"/>
+  </widget>
+  <widget actionPerformed="button2ActionPerformed" icon="img/ok.png" name="button2" parent="Form" prefHeight="60px" prefWidth="108px" text="Ок" type="ButtonDesignInfo">
+    <constraints bottom="51px" height="60px" right="18px" type="MarginConstraintsDesignInfo" width="108px"/>
   </widget>
   <layout type="MarginLayoutDesignInfo"/>
 </layout>

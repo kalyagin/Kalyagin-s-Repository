@@ -1,14 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><layout backgroundColor="#66ff66" defaultCloseOperation="2" name="Form" prefHeight="475px" prefWidth="729px">
+<?xml version="1.0" encoding="UTF-8"?><layout backgroundColor="#99ff99" defaultCloseOperation="2" name="Form" prefHeight="475px" prefWidth="729px">
   <widget backgroundColor="#ccffcc" name="modelGrid" parent="Form" prefHeight="252px" prefWidth="660px" type="DbGridDesignInfo">
-    <rowsColumnsDesignInfo>
-      <rowsDatasource entityId="138669130507112" field="false"/>
-    </rowsColumnsDesignInfo>
-    <column name="gUEST_ID">
+    <treeDesignInfo/>
+    <column name="Фамилия">
       <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
         <valueField entityId="138669134792948" fieldName="GUEST_ID"/>
         <displayField entityId="138669134792948" fieldName="SURNAME"/>
       </controlInfo>
-      <columnsDisplayField/>
       <datamodelElement entityId="138669130507112" fieldName="GUEST_ID"/>
       <columnsDatasource/>
       <cellsDatasource/>
@@ -20,13 +17,13 @@
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
+      <columnsDisplayField/>
     </column>
-    <column name="rOOMS_ID">
+    <column name="№ комнаты">
       <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
         <valueField entityId="138669135669894" fieldName="ROOMS_ID"/>
         <displayField entityId="138669135669894" fieldName="ROOMS_ID"/>
       </controlInfo>
-      <columnsDisplayField/>
       <datamodelElement entityId="138669130507112" fieldName="ROOMS_ID"/>
       <columnsDatasource/>
       <cellsDatasource/>
@@ -38,10 +35,10 @@
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
-    </column>
-    <column name="rACE">
-      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDisplayField/>
+    </column>
+    <column name="Дата въезда">
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138669130507112" fieldName="RACE"/>
       <columnsDatasource/>
       <cellsDatasource/>
@@ -53,10 +50,10 @@
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
-    </column>
-    <column name="eXIT">
-      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDisplayField/>
+    </column>
+    <column name="Дата выезда">
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138669130507112" fieldName="EXIT"/>
       <columnsDatasource/>
       <cellsDatasource/>
@@ -68,8 +65,11 @@
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
+      <columnsDisplayField/>
     </column>
-    <treeDesignInfo/>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138669130507112" field="false"/>
+    </rowsColumnsDesignInfo>
     <constraints height="252px" left="12px" top="144px" type="MarginConstraintsDesignInfo" width="660px"/>
   </widget>
   <widget actionPerformed="buttonActionPerformed" icon="img/plus_32_1.png" name="button" parent="Form" prefHeight="47px" prefWidth="144px" text="Добавить" type="ButtonDesignInfo">
@@ -79,8 +79,8 @@
     <constraints bottom="19px" height="48px" right="57px" type="MarginConstraintsDesignInfo" width="108px"/>
   </widget>
   <widget name="label" parent="Form" prefHeight="60px" prefWidth="252px" text="Заселение постояльца" type="LabelDesignInfo">
-    <easFont name="Times New Roman" size="24" style="3"/>
     <constraints height="60px" left="240px" top="12px" type="MarginConstraintsDesignInfo" width="252px"/>
+    <easFont name="Times New Roman" size="24" style="3"/>
   </widget>
   <widget actionPerformed="button2ActionPerformed" icon="img/images.jpg" name="button2" parent="Form" prefHeight="48px" prefWidth="156px" text="Удалить" type="ButtonDesignInfo">
     <constraints height="48px" left="192px" top="72px" type="MarginConstraintsDesignInfo" width="156px"/>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><layout backgroundColor="#99ff99" defaultCloseOperation="2" name="Form" prefHeight="473px" prefWidth="726px">
   <widget backgroundColor="#ccffcc" name="modelGrid" parent="Form" prefHeight="228px" prefWidth="672px" type="DbGridDesignInfo">
-    <column name="nAME">
+    <treeDesignInfo/>
+    <column name="Имя">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138713733135404" fieldName="NAME"/>
       <columnsDatasource/>
@@ -15,7 +16,7 @@
       </headerStyle>
       <columnsDisplayField/>
     </column>
-    <column name="sURNAME">
+    <column name="Фамилия">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138713733135404" fieldName="SURNAME"/>
       <columnsDatasource/>
@@ -30,7 +31,7 @@
       </headerStyle>
       <columnsDisplayField/>
     </column>
-    <column name="bDAY">
+    <column name="Дата рождения">
       <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138713733135404" fieldName="BDAY"/>
       <columnsDatasource/>
@@ -45,7 +46,7 @@
       </headerStyle>
       <columnsDisplayField/>
     </column>
-    <column name="sEX">
+    <column name="Пол">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138713733135404" fieldName="SEX"/>
       <columnsDatasource/>
@@ -60,7 +61,7 @@
       </headerStyle>
       <columnsDisplayField/>
     </column>
-    <column name="pHONE">
+    <column name="Телефон">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138713733135404" fieldName="PHONE"/>
       <columnsDatasource/>
@@ -78,7 +79,6 @@
     <rowsColumnsDesignInfo>
       <rowsDatasource entityId="138713733135404" field="false"/>
     </rowsColumnsDesignInfo>
-    <treeDesignInfo/>
     <constraints height="228px" left="24px" top="156px" type="MarginConstraintsDesignInfo" width="672px"/>
   </widget>
   <widget name="label" parent="Form" prefHeight="72px" prefWidth="228px" text="Список постояльцев " type="LabelDesignInfo">

@@ -10,6 +10,10 @@ function button1ActionPerformed(evt) {//GEN-FIRST:event_button1ActionPerformed
 }//GEN-LAST:event_button1ActionPerformed
 
 function buttonActionPerformed(evt) {//GEN-FIRST:event_buttonActionPerformed
-    var showRev = new gShowReservation();
-    showRev.showModal();
+var reserv = new gShowReservarion();
+reserv.showModal();
 }//GEN-LAST:event_buttonActionPerformed
+
+function button2ActionPerformed(evt) {//GEN-FIRST:event_button2ActionPerformed
+close();
+}//GEN-LAST:event_button2ActionPerformed
