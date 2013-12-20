@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><layout backgroundColor="#99ff99" defaultCloseOperation="2" name="Form" prefHeight="475px" prefWidth="729px">
   <widget backgroundColor="#ccffcc" name="modelGrid" parent="Form" prefHeight="252px" prefWidth="660px" type="DbGridDesignInfo">
-    <treeDesignInfo/>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138669130507112" field="false"/>
+    </rowsColumnsDesignInfo>
     <column name="Фамилия">
       <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
         <valueField entityId="138669134792948" fieldName="GUEST_ID"/>
         <displayField entityId="138669134792948" fieldName="SURNAME"/>
       </controlInfo>
+      <columnsDisplayField/>
       <datamodelElement entityId="138669130507112" fieldName="GUEST_ID"/>
       <columnsDatasource/>
       <cellsDatasource/>
@@ -17,13 +20,13 @@
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
-      <columnsDisplayField/>
     </column>
     <column name="№ комнаты">
       <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
         <valueField entityId="138669135669894" fieldName="ROOMS_ID"/>
         <displayField entityId="138669135669894" fieldName="ROOMS_ID"/>
       </controlInfo>
+      <columnsDisplayField/>
       <datamodelElement entityId="138669130507112" fieldName="ROOMS_ID"/>
       <columnsDatasource/>
       <cellsDatasource/>
@@ -35,10 +38,10 @@
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
-      <columnsDisplayField/>
     </column>
     <column name="Дата въезда">
       <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
       <datamodelElement entityId="138669130507112" fieldName="RACE"/>
       <columnsDatasource/>
       <cellsDatasource/>
@@ -50,10 +53,10 @@
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
-      <columnsDisplayField/>
     </column>
     <column name="Дата выезда">
       <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
       <datamodelElement entityId="138669130507112" fieldName="EXIT"/>
       <columnsDatasource/>
       <cellsDatasource/>
@@ -65,11 +68,8 @@
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
-      <columnsDisplayField/>
     </column>
-    <rowsColumnsDesignInfo>
-      <rowsDatasource entityId="138669130507112" field="false"/>
-    </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
     <constraints height="252px" left="12px" top="144px" type="MarginConstraintsDesignInfo" width="660px"/>
   </widget>
   <widget actionPerformed="buttonActionPerformed" icon="img/plus_32_1.png" name="button" parent="Form" prefHeight="47px" prefWidth="144px" text="Добавить" type="ButtonDesignInfo">

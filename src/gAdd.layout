@@ -2,8 +2,9 @@
   <widget backgroundColor="#ccffcc" name="modelGrid" parent="Form" prefHeight="252px" prefWidth="684px" type="DbGridDesignInfo">
     <treeDesignInfo/>
     <column name="Имя">
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138710538743868" fieldName="NAME"/>
+      <columnsDisplayField/>
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDatasource/>
       <cellsDatasource/>
       <cellDesignInfo>
@@ -14,11 +15,11 @@
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
-      <columnsDisplayField/>
     </column>
     <column name="Фамилия">
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138710538743868" fieldName="SURNAME"/>
+      <columnsDisplayField/>
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDatasource/>
       <cellsDatasource/>
       <cellDesignInfo>
@@ -29,11 +30,11 @@
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
-      <columnsDisplayField/>
     </column>
     <column name="Дата рождения">
-      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138710538743868" fieldName="BDAY"/>
+      <columnsDisplayField/>
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDatasource/>
       <cellsDatasource/>
       <cellDesignInfo>
@@ -44,11 +45,11 @@
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
-      <columnsDisplayField/>
     </column>
     <column name="Пол">
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138710538743868" fieldName="SEX"/>
+      <columnsDisplayField/>
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDatasource/>
       <cellsDatasource/>
       <cellDesignInfo>
@@ -59,11 +60,11 @@
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
-      <columnsDisplayField/>
     </column>
     <column name="Номер телефон">
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138710538743868" fieldName="PHONE"/>
+      <columnsDisplayField/>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDatasource/>
       <cellsDatasource/>
       <cellDesignInfo>
@@ -74,7 +75,6 @@
       <headerStyle>
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
-      <columnsDisplayField/>
     </column>
     <rowsColumnsDesignInfo>
       <rowsDatasource entityId="138710538743868" field="false"/>
@@ -91,14 +91,14 @@
     <constraints bottom="14px" height="60px" right="20px" type="MarginConstraintsDesignInfo" width="119px"/>
   </widget>
   <widget actionPerformed="button4ActionPerformed" icon="img/w32h321377581609159Key.png" name="button4" parent="Form" prefHeight="60px" prefWidth="204px" text="Забронировать номер" type="ButtonDesignInfo">
+    <constraints bottom="14px" height="60px" left="264px" type="MarginConstraintsDesignInfo" width="204px"/>
+  </widget>
+  <widget actionPerformed="button5ActionPerformed" backgroundColor="#ffcccc" icon="img/book_key.png" name="button5" parent="Form" prefHeight="60px" prefWidth="204px" text="Заселить в номер" type="ButtonDesignInfo">
     <constraints bottom="14px" height="60px" left="24px" type="MarginConstraintsDesignInfo" width="204px"/>
   </widget>
-  <widget actionPerformed="button5ActionPerformed" icon="img/book_key.png" name="button5" parent="Form" prefHeight="60px" prefWidth="204px" text="Заселить в номер" type="ButtonDesignInfo">
-    <constraints bottom="14px" height="60px" left="276px" type="MarginConstraintsDesignInfo" width="204px"/>
-  </widget>
   <widget name="label" parent="Form" prefHeight="48px" prefWidth="540px" text="Список постояльцев &quot;Royal Hotel&quot;" type="LabelDesignInfo">
-    <constraints height="48px" left="96px" top="12px" type="MarginConstraintsDesignInfo" width="540px"/>
     <easFont name="Times New Roman" size="36" style="2"/>
+    <constraints height="48px" left="96px" top="12px" type="MarginConstraintsDesignInfo" width="540px"/>
   </widget>
   <layout type="MarginLayoutDesignInfo"/>
 </layout>

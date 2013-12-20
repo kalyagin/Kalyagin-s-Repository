@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><layout backgroundColor="#99ff99" defaultCloseOperation="2" name="Form" prefHeight="514px" prefWidth="748px">
   <widget name="label" parent="Form" prefHeight="72px" prefWidth="684px" text="Информационная поддержка Royal Hotel" type="LabelDesignInfo">
-    <constraints height="72px" left="36px" top="12px" type="MarginConstraintsDesignInfo" width="684px"/>
     <easFont name="Times New Roman" size="36" style="3"/>
+    <constraints height="72px" left="36px" top="12px" type="MarginConstraintsDesignInfo" width="684px"/>
   </widget>
-  <widget actionPerformed="button1ActionPerformed" backgroundColor="#ccffcc" icon="img/Note32.png" name="button1" parent="Form" prefHeight="48px" prefWidth="240px" text="Информация о номерах" type="ButtonDesignInfo">
-    <constraints height="48px" left="72px" top="336px" type="MarginConstraintsDesignInfo" width="240px"/>
+  <widget actionPerformed="button1ActionPerformed" backgroundColor="#ccffcc" foregroundColor="#0033ff" icon="img/Note32.png" name="button1" parent="Form" prefHeight="84px" prefWidth="216px" text="Информация о номерах" type="ButtonDesignInfo">
+    <constraints height="84px" left="96px" top="324px" type="MarginConstraintsDesignInfo" width="216px"/>
   </widget>
-  <widget actionPerformed="button2ActionPerformed" backgroundColor="#ccffcc" icon="img/kuser.png" name="button2" parent="Form" prefHeight="132px" prefWidth="336px" text="Информация о постояльцах" type="ButtonDesignInfo">
+  <widget actionPerformed="button2ActionPerformed" backgroundColor="#ccffcc" foregroundColor="#0033ff" icon="img/kuser.png" name="button2" parent="Form" prefHeight="132px" prefWidth="336px" text="Информация о постояльцах" type="ButtonDesignInfo">
     <constraints height="132px" left="372px" top="300px" type="MarginConstraintsDesignInfo" width="336px"/>
   </widget>
   <widget actionPerformed="button3ActionPerformed" backgroundColor="#ffcccc" icon="img/Users256.png" name="button3" parent="Form" prefHeight="203px" prefWidth="432px" text="Добавить постояльца" type="ButtonDesignInfo">
+    <easFont name="Tahoma" size="11" style="1"/>
     <constraints height="203px" left="132px" top="84px" type="MarginConstraintsDesignInfo" width="432px"/>
   </widget>
   <widget actionPerformed="buttonActionPerformed" icon="img/w32h321377581609159Key.png" name="button" parent="Form" prefHeight="24px" prefWidth="108px" text="Выход" type="ButtonDesignInfo">
